@@ -1,0 +1,53 @@
+---
+
+title: "Kick"  
+description: "Kick a user from the server."  
+
+---
+
+## 🔁 Aliases  
+
+No Aliases  
+
+## 🛡️ Required Permissions  
+
+<Warning>  
+  This command requires the user to have the `KickMembers` permission.  
+</Warning>  
+
+<Warning>  
+  The bot must also have the `KickMembers` permission to execute this command.  
+</Warning>  
+
+---
+
+## 💡 Usage  
+
+### Basic Usage:  
+
+```plaintext  
+.kick <user> [reason]  
+```  
+
+### Parameters:  
+
+- **`<user>`**: The member you want to kick. **(Required)**  
+- **`[reason]`**: Reason for the kick. **_(Optional)_**  
+
+### Example:  
+
+```plaintext  
+.kick @user Disrupting the chat  
+```  
+
+This will kick `@user` and log "Disrupting the chat" as the reason.  
+
+---
+
+## ⚠️ Notes  
+
+- The kicked user is removed from the server but can rejoin if they have an invite.  
+- The bot must have a higher role than the user to be kicked.  
+- Unlike a ban, a kick does not prevent the user from rejoining the server.  
+
+--- 

@@ -1,0 +1,65 @@
+---
+
+title: "Mute"  
+description: "Mute a user in the server."  
+
+---
+
+## 🔁 Aliases  
+
+No Aliases  
+
+## 🛡️ Required Permissions  
+
+<Warning>  
+  This command requires the user to have the `ModerateMembers` permission.  
+</Warning>  
+
+<Warning>  
+  The bot must have the `ModerateMembers`, `SendMessages`, and `EmbedLinks` permissions to execute this command.  
+</Warning>  
+
+---
+
+## 💡 Usage  
+
+### Basic Usage:  
+
+```plaintext  
+.mute <user> [time] [reason]  
+```  
+
+### Parameters:  
+
+- **`<user>`**: The member you want to mute. **(Required)**  
+- **`[time]`**: Duration of the mute (e.g., `1h`, `30m`, `2d`). **_(Optional)_**  
+- **`[reason]`**: Reason for the mute. **_(Optional)_**  
+
+### Examples:  
+
+1. **Permanent mute:**  
+   ```plaintext  
+   .mute @user Spamming  
+   ```  
+   Mutes `@user` indefinitely with the reason "Spamming".  
+
+2. **Temporary mute:**  
+   ```plaintext  
+   .mute @user 2h Being disruptive  
+   ```  
+   Mutes `@user` for 2 hours with the reason "Being disruptive".  
+
+---
+
+## ⚠️ Notes  
+
+- If no time is specified, the mute is permanent until manually removed.  
+- The bot must have a higher role than the user to mute them.  
+- Use the `unmute` command to remove a mute.  
+- Time formats:  
+  - `s` for seconds (e.g., `30s`)  
+  - `m` for minutes (e.g., `10m`)  
+  - `h` for hours (e.g., `1h`)  
+  - `d` for days (e.g., `7d`)  
+
+--- 
