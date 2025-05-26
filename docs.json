@@ -22,7 +22,9 @@
           {
             "group": "Category",
             "pages": [
-              "category/moderation/ban"
+              "category/moderation/ban",
+              "category/moderation/hackban",
+              "category/moderation/unban"
             ]
           }
         ]
