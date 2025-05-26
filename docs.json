@@ -75,10 +75,6 @@
       ]
     }
   },
-  "logo": {
-    "light": "Fusion Bot",
-    "dark": "/logo/dark.svg"
-  },
   "navbar": {
     "links": [
       {
