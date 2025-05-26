@@ -1,6 +1,49 @@
 ---
-title: "New file"
-description: "Description of your new file."
+title: "Ban"
+description: "Ban a user from the server."
 ---
 
-hdsajuk
+## 🔁 Aliases
+
+No Aliases
+
+## 🛡️ Required Permissions
+
+<Warning>
+  This command requires the user to have the `BanMembers` permission.
+</Warning>
+
+<Warning>
+  The bot must also have the `BanMembers` permission to execute this command.
+</Warning>
+
+---
+
+## 💡 Usage
+
+### Basic Usage:
+
+```plaintext
+.ban <user> [reason]
+```
+
+### Parameters:
+
+- **`<user>`**: The member you want to ban. **(Required)**
+- **`[reason]`**: Reason for the ban. **_(Optional)_**
+
+### Example:
+
+```plaintext
+.ban @user Spamming inappropriate content
+```
+
+This will ban `@user` and log "Spamming inappropriate content" as the reason.
+
+---
+
+## ⚠️ Notes
+
+- The banned user is removed from the server and can't rejoin unless unbanned.
+- The bot must have a higher role than the user to be banned.
+- Use `unban` to revoke a ban if needed.
